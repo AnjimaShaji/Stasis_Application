@@ -1,0 +1,23 @@
+{
+  "name": "stasiswaybeo",
+  "description": "waybeo Stasis app",
+  "homepage": "http://",
+  "keywords": [],
+  "author": "Anjima Shaji <anjima.shaji@waybeo.com>",
+  "contributors": ["Anjima Shaji <anjima.shaji@waybeo.com>"],
+  "dependencies": {
+    "ari-client": "^2.2.0",
+    "axios": "^0.24.0",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.5",
+    "mv": "^2.1.1",
+    "mysql": "^2.18.1",
+    "nanoid": "^3.1.28"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Waybeo/Stasiswaybeo.git"
+  },
+  "main": "stasiswaybeo.js",
+  "version": "0.0.1"
+}

@@ -1,0 +1,11 @@
+{
+    "maxDuration": 3600,
+    "dialTimeout": 60,
+    "defaultGatewayId": 1,
+    "backupGatewayId": 2,
+    "appName": "example",
+    "recordBucketName": "example",
+    "logPath": "/var/log/stasis/example_logs/",
+    "cdrPath": "/var/www/stasis-calllogs/",
+    "cdrPathForCrmPush": "/Storage/CallLogs/"
+}

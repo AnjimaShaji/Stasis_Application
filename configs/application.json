@@ -1,0 +1,90 @@
+{
+    "production-mumbai": {
+        "appname": "example-mpri-prod-n",
+        "context": "asterisk_mumbai",
+        "asterisk": {
+            "host": "127.0.0.1",
+            "port": "8088",
+            "user": "qRb2e8veTMAPRJEg@Q33xsE_MPRI",
+            "password": "B-4_ELgXw*BNVVfS"
+        },
+        "mysql": {
+            "host": "127.0.0.1",
+            "user": "root",
+            "password": "kghjkssmdwrfe",
+            "dbname": "numbers",
+            "connections": 100
+        },
+        "callback": {
+            "url": "https://example.example.com/api/callback",
+            "method": "post",
+            "user": "way_example:c9JH9xIv7Nrado75U2IQ"
+        }
+    },
+    "production-mumbai-release": {
+        "appname": "example-mpri-prod-rel",
+        "context": "asterisk_mumbai",
+        "asterisk": {
+            "host": "127.0.0.1",
+            "port": "8088",
+            "user": "qRb2e8veTMAPRJEg@Q33xsE_MPRI",
+            "password": "B-4_ELgXw*BNVVfS"
+        },
+        "mysql": {
+            "host": "127.0.0.1",
+            "user": "root",
+            "password": "kghjkssmdwrfe",
+            "dbname": "numbers",
+            "connections": 100
+        },
+        "callback": {
+            "url": "https://example.example.com/api/callback",
+            "method": "post",
+            "user": "way_example:c9JH9xIv7Nrado75U2IQ"
+        }
+    },
+    "testing-mumbai": {
+        "appname": "example-mpri-test",
+        "context": "asterisk_mumbai",
+        "asterisk": {
+            "host": "127.0.0.1",
+            "port": "8088",
+            "user": "qRb2e8veTMAPRJEg@Q33xsE_MPRI",
+            "password": "B-4_ELgXw*BNVVfS"
+        },
+        "mysql": {
+            "host": "127.0.0.1",
+            "user": "root",
+            "password": "kghjkssmdwrfe",
+            "dbname": "numbers",
+            "connections": 100
+        },
+        "callback": {
+            "url": "",
+            "method": "",
+            "user": ""
+        }
+    },
+    "development-mumbai": {
+        "appname": "app-mpri-dev",
+        "context": "asterisk_mumbai",
+        "asterisk": {
+            "host": "114.143.197.210",
+            "port": "8088",
+            "user": "qRb2e8veTMAPRJEg@Q33xsE_MPRI",
+            "password": "B-4_ELgXw*BNVVfS"
+        },
+        "mysql": {
+            "host": "127.0.0.1",
+            "user": "anjima",
+            "password": "password",
+            "dbname": "numbers",
+            "connections": 10
+        },
+        "callback": {
+            "url": "",
+            "method": "",
+            "user": ""
+        }
+    }
+}
